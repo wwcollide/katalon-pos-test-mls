@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>DPA user creates a new DPU user.</description>
+   <name>Create - DPA creates DPU</name>
+   <tag>Create User</tag>
+   <comment></comment>
+   <testCaseGuid>eb349377-1123-44bb-aed5-3f5cefaf218a</testCaseGuid>
+</TestCaseEntity>

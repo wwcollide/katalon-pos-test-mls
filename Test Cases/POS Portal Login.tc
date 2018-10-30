@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>This test performs a login to the POS Portal then performs a logout</description>
+   <name>POS Portal Login</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>d1c2f1a5-bdc1-45eb-ae21-9ccd1c4a2e7f</testCaseGuid>
+</TestCaseEntity>
