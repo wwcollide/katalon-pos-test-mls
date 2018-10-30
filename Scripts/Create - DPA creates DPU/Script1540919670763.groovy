@@ -36,7 +36,7 @@ WebUI.setText(findTestObject('Object Repository/Page_Portal Users/input_Last Nam
 
 WebUI.setText(findTestObject('Object Repository/Page_Portal Users/input_Title_form-control'), 'Data Provider User')
 
-WebUI.setText(findTestObject('Object Repository/Page_Portal Users/input_Primary Email _form-cont'), 'mlstestdpuz@mailinator.com')
+WebUI.setText(findTestObject('Object Repository/Page_Portal Users/input_Primary Email _form-cont'), 'mlstestdpuzz@mailinator.com')
 
 WebUI.setText(findTestObject('Object Repository/Page_Portal Users/input_Phone Number _form-contr'), '(412) 555-1515')
 
@@ -46,7 +46,7 @@ WebUI.selectOptionByValue(findTestObject('Object Repository/Page_Portal Users/se
 
 WebUI.click(findTestObject('Object Repository/Page_Portal Users/span_Add Organization(s)_glyph'))
 
-WebUI.selectOptionByValue(findTestObject('Object Repository/Page_Portal Users/select_Data Provider AdminData'), '2', true)
+WebUI.selectOptionByValue(findTestObject('Page_Portal Users/select_Data Provider AdminData'), '2', true)
 
 WebUI.click(findTestObject('Object Repository/Page_Portal Users/span_Add Role(s)_glyphicon gly'))
 
