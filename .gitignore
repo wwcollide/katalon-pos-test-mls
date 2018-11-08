@@ -1,5 +1,9 @@
+<<<<<<< HEAD
 /bin/
 /Libs/
 /.settings/
 /.classpath
 .svn/
+=======
+This is a gitignore
+>>>>>>> branch 'master' of https://github.com/wwcollide/katalon-pos-test-mls
