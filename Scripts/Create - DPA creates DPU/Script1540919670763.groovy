@@ -18,7 +18,7 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('http://vl311.msais.com:8190/id/#/login')
 
-WebUI.setText(findTestObject('Page_MSA Retailer Portal/input_Email_email'), 'mlstestdpa@mailinator.com')
+WebUI.setText(findTestObject('Page_MSA Retailer Portal/input_Email_email'), 'mlsdpa@mailinator.com')
 
 WebUI.setEncryptedText(findTestObject('Page_MSA Retailer Portal/input_Password_password'), 'TFy7ZZvOP0LUM7+WDlN84g==')
 
@@ -42,7 +42,7 @@ WebUI.setText(findTestObject('Object Repository/Page_Portal Users/input_Phone Nu
 
 WebUI.setText(findTestObject('Object Repository/Page_Portal Users/input_Phone Extension_form-con'), '1234')
 
-WebUI.selectOptionByValue(findTestObject('Object Repository/Page_Portal Users/select_MLS Test Org Chain'), '9A7P4T', true)
+WebUI.selectOptionByValue(findTestObject('Object Repository/Page_Portal Users/select_MLS Test Org Chain'), '10414224', true)
 
 WebUI.click(findTestObject('Object Repository/Page_Portal Users/span_Add Organization(s)_glyph'))
 
@@ -52,7 +52,7 @@ WebUI.click(findTestObject('Object Repository/Page_Portal Users/span_Add Role(s)
 
 WebUI.click(findTestObject('Object Repository/Page_Portal Users/button_Save'))
 
-WebUI.click(findTestObject('Object Repository/Page_Portal Users/button_Ok'))
+not_run: WebUI.click(findTestObject('Object Repository/Page_Portal Users/button_Ok'))
 
 WebUI.click(findTestObject('Object Repository/Page_Portal Users/span_mlstestdpamailinator.com_'))
 
